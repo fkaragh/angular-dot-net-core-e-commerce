@@ -23,7 +23,6 @@ skinet/API/bin/Debug/net8.0/Infrastructure.pdb
 skinet/API/obj/Debug/net8.0/API.AssemblyInfo.cs
 skinet/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache
 skinet/API/obj/Debug/net8.0/API.dll
-skinet/API/obj/Debug/net8.0/API.pdb
 skinet/API/obj/Debug/net8.0/API.sourcelink.json
 skinet/API/obj/Debug/net8.0/apphost.exe
 skinet/API/obj/Debug/net8.0/ref/API.dll
@@ -33,3 +32,9 @@ skinet/Core/bin/Debug/net8.0/Core.pdb
 skinet/Core/obj/Debug/net8.0/Core.AssemblyInfo.cs
 skinet/Core/obj/Debug/net8.0/Core.AssemblyInfoInputs.cache
 skinet/Core/obj/Debug/net8.0/Core.csproj.CoreCompileInputs.cache
+skinet/Core/obj/Debug/net8.0/Core.AssemblyInfo.cs
+skinet/Core/obj/Debug/net8.0/Core.AssemblyInfoInputs.cache
+skinet/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs
+skinet/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache
+skinet/API/bin/Debug/net8.0/API.dll
+skinet/API/bin/Debug/net8.0/API.dll
