@@ -1,3 +1,5 @@
-skinet/API/appsettings.json
-**/bin/**
-**/obj/**
+obj
+bin
+*.db
+*.rdb
+publish
