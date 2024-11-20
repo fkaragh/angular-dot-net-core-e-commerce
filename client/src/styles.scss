@@ -1,3 +1,18 @@
+@use '@angular/material' as mat;
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+    //BUG , the implemented code from the docs of angular material is not working, giving the undefined mixin error
+    
+    .mdc-button, .mdc-raised-button, .mdc-stroked-button, .mdc-flat-button{
+        @apply rounded-md
+    }
+}
+
+
+.container {
+    @apply max-w-screen-2xl mx-7
+}
