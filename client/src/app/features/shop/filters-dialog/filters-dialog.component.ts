@@ -7,17 +7,16 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-filters-dialog',
-  standalone: true,
-  imports: [
-    MatDividerModule,
-    MatSelectionList,
-    MatListModule,
-    MatButtonModule,
-    FormsModule
-  ],
-  templateUrl: './filters-dialog.component.html',
-  styleUrl: './filters-dialog.component.scss'
+    selector: 'app-filters-dialog',
+    imports: [
+        MatDividerModule,
+        MatSelectionList,
+        MatListModule,
+        MatButtonModule,
+        FormsModule
+    ],
+    templateUrl: './filters-dialog.component.html',
+    styleUrl: './filters-dialog.component.scss'
 })
 export class FiltersDialogComponent {
   shopService = inject(ShopService);

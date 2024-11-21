@@ -15,22 +15,21 @@ import { MatPaginator, PageEvent } from '@angular/material/paginator';
 import { Pagination } from '../../shared/models/pagination';
 
 @Component({
-  selector: 'app-shop',
-  standalone: true,
-  imports: [
-    MatCardModule,
-    ProductItemComponent,
-    MatButtonModule,
-    MatIconModule,
-    MatMenuModule,
-    MatSelectionList,
-    MatOptionModule,
-    MatMenuTrigger,
-    MatListOption,
-    MatPaginator
-  ],
-  templateUrl: './shop.component.html',
-  styleUrl: './shop.component.scss'
+    selector: 'app-shop',
+    imports: [
+        MatCardModule,
+        ProductItemComponent,
+        MatButtonModule,
+        MatIconModule,
+        MatMenuModule,
+        MatSelectionList,
+        MatOptionModule,
+        MatMenuTrigger,
+        MatListOption,
+        MatPaginator
+    ],
+    templateUrl: './shop.component.html',
+    styleUrl: './shop.component.scss'
 })
 export class ShopComponent implements OnInit {
   private shopService = inject(ShopService);

@@ -4,15 +4,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatBadgeModule } from '@angular/material/badge';
 
 @Component({
-  selector: 'app-header',
-  standalone: true,
-  imports: [
-    MatBadgeModule,
-    MatButtonModule,
-    MatIconModule
-  ],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+    selector: 'app-header',
+    imports: [
+        MatBadgeModule,
+        MatButtonModule,
+        MatIconModule
+    ],
+    templateUrl: './header.component.html',
+    styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
 
