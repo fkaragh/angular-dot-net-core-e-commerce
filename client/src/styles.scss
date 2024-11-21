@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body, html{
-    margin:0;
-    padding:0;
-}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 html{
     //BUG , the implemented code from the docs of angular material is not working, giving the undefined mixin error
@@ -20,5 +18,10 @@ html{
     @apply mx-auto max-w-screen-2xl px-7;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.text-primary{
+    color: #7d00fa;
+}
+
+button.match-input-height {
+    height: var(--mat-form-field-container-height) !important;
+}
