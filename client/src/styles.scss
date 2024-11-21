@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body, html{
+    margin:0;
+    padding:0;
+}
+
 html{
     //BUG , the implemented code from the docs of angular material is not working, giving the undefined mixin error
     
@@ -14,5 +19,5 @@ html{
 
 
 .container {
-    @apply max-w-screen-2xl mx-7
+    @apply mx-auto max-w-screen-2xl px-7;
 }
