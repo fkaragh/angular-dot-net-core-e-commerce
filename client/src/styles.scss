@@ -20,8 +20,31 @@ html{
 
 .text-primary{
     color: #7d00fa;
-}
+} 
 
 button.match-input-height {
     height: var(--mat-form-field-container-height) !important;
+}
+
+.mdc-notched-outline__notch {
+    border-right-style:none !important;
+}
+
+.mat-mdc-snack-bar-container.snack-error {
+    --mdc-snackbar-container-color : #f44336;
+    --mat-snackbar-button-color : #fff;
+    --mdc-snackbar-supporting-text-color : #fff;
+    --mdc-snackbar-text-color : #fff;
+    --mdc-snackbar-action-text-color : #fff;
+    --mdc-snackbar-action-color : #fff;
+
+}
+
+.mat-mdc-snack-bar-container.snack-success {
+    --mdc-snackbar-container-color : #4caf50;
+    --mat-snackbar-button-color : #fff;
+    --mdc-snackbar-supporting-text-color : #fff;
+    --mdc-snackbar-text-color : #fff;
+    --mdc-snackbar-action-text-color : #fff;
+    --mdc-snackbar-action-color : #fff;
 }

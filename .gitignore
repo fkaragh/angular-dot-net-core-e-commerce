@@ -489,3 +489,5 @@ bin
 *.db
 *.rdb
 publish
+client/ssl/localhost-key.pem
+client/ssl/localhost.pem
